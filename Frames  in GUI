@@ -1,0 +1,35 @@
+public class Gui {
+    public static void main(String[] args){
+        /*JFrame frame=new JFrame();
+        frame.setTitle("this is teja");
+        frame.setVisible(true);
+        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        frame.setSize(420,420);
+        frame.setResizable(true);
+        frame.getContentPane().setBackground(Color.green);
+        ImageIcon image=new ImageIcon("C:\\Users\\badis\\Downloads\\imp2.jpeg");
+        frame.setIconImage(image.getImage());
+*/
+        MyFrame ob=new MyFrame();
+    }
+}
+import javax.swing.JFrame;
+import javax.swing.ImageIcon;
+import java.awt.Color;
+
+public class MyFrame extends JFrame{
+
+    MyFrame(){
+
+        this.setTitle("this is teja");
+        this.setVisible(true);
+        this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        this.setSize(420,420);
+        this.setResizable(true);
+        this.getContentPane().setBackground(Color.green);//change color of background
+        ImageIcon image=new ImageIcon("C:\\Users\\badis\\Downloads\\imp2.jpeg");//create an ImageIcon
+        this.setIconImage(image.getImage());//change icon of frame
+
+    }
+
+}
