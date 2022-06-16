@@ -1,0 +1,24 @@
+public class Main{
+    public static void main(String[] args){
+        String  name="Teja";
+        int age=21;
+        display(name,age);
+        int x=9;
+        int y=10;
+       int z= add(x,y);
+       System.out.println(z);
+
+
+
+    }
+    static  int add(int x,int y){
+        int z=x+y;
+        return z;
+    }
+    static void display(String name, int age){
+
+
+        System.out.println("HELLO "+name + age);
+    }
+
+}
